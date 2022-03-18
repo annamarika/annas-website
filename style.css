@@ -1,0 +1,129 @@
+html {
+  font-size: 62, 5%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-color: darkolivegreen;
+  padding: 20px;
+}
+
+h1 {
+  color: salmon;
+}
+header a {
+  color: salmon;
+  text-decoration: none;
+}
+
+.ilike li {
+  background-color: cadetblue;
+  padding: 5px;
+  border: 2px solid darkslategray;
+  margin: 10px;
+  width: 150px;
+}
+
+address {
+  background-color: salmon;
+  color: darkolivegreen;
+  padding: 10px;
+  border: 10px solid cadetblue;
+  width: 300px;
+}
+
+address h3 {
+  padding: 10px;
+  border: 2px solid darkolivegreen;
+}
+
+.social-all {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.social {
+  width: 388px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.05);
+  border-radius: 16px;
+  margin: 12px;
+}
+
+.social-icon {
+  width: 128px;
+  height: 128px;
+  border-radius: 8px;
+  margin: 16px;
+}
+
+.social-text {
+  height: 128px;
+  width: 204px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 16px;
+}
+
+.social-head-sub {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-headline {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0, 16rem;
+  line-height: 0, 19rem;
+  padding-bottom: 8px;
+}
+
+.social-subtext {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0, 14rem;
+  line-height: 0, 20rem;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social-name {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 0, 12rem;
+  line-height: 0, 14rem;
+  color: #6f6f6f;
+}
+
+.social-image {
+  width: 20px;
+  height: 20px;
+}
+
+address a {
+  color: darkolivegreen;
+  text-decoration: none;
+  padding: 10px;
+  border: 2px solid darkolivegreen;
+  margin: 10px 0;
+  display: block;
+}
