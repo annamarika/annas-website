@@ -9,60 +9,111 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Courier+Prime&family=Raleway&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
     <header>
       <h1>Anna Holtmann</h1>
-      <nav>
-        <a href="#contact">Contact</a>
-        <a href="#cv">CV</a>
-      </nav>
+
+      <div class="portrait-box">
+        <img
+          class="portrait"
+          src="images/Portrait.jpg"
+          alt="portrait of anna"
+        />
+        <nav>
+          <a href="#contact">CONTACT</a>
+          <a href="#cv">CV</a>
+        </nav>
+
+        <ul class="list-header">
+          <li>Autodidakt</li>
+          <li>Coffee Love</li>
+          <li>Tooth Gap</li>
+        </ul>
+      </div>
     </header>
 
-    <section>
+    <!--my skills and my passion-->
+    <section class="skillspassion">
+      <article class="knowledge-text">
+        <h2>MY SKILLS</h2>
+        <ul class="knowledge-program">
+          <li class="program">HTML</li>
+          <li class="program">CSS</li>
+          <li class="program">JS</li>
+          <li class="program">Adobe</li>
+          <li class="program">Rhino 3D</li>
+          <li class="program">Cinema 4D</li>
+        </ul>
+      </article>
+
+      <article class="knowledge-text">
+        <h2>MY PASSION</h2>
+        <ul class="knowledge-program">
+          <li class="program">Mixed Reality</li>
+          <li class="program">Jewelry</li>
+          <li class="program">Design</li>
+          <li class="program">Playstation</li>
+          <li class="program">Sport</li>
+        </ul>
+      </article>
+    </section>
+
+    <!--my skills and my passion-->
+
+    <!--Contact-->
+    <section class="contact-box">
       <img
-        src="http://source.unsplash.com/random/800x500/?person"
-        alt="portrait of a person"
+        class="portrait"
+        src="images/Zahnluecke.jpg"
+        alt="portrait of anna"
       />
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ullam in
-        doloremque perspiciatis non deserunt aut itaque nemo repudiandae ratione
-        architecto possimus dolor molestiae at ex, impedit totam inventore sunt?
-      </p>
+      <address class="contact-text" id="contact">
+        <h2>CONTACT</h2>
+        <div class="svg">
+          <a class="svg-mail" href="mailto:anna_maria.heuer@mac.com">
+            <img src="images/email_black_24dp.svg" />
+          </a>
+          <a class="svg-phone" href="tel:+4915140132615">
+            <img src="images/call_black_24dp.svg" />
+          </a>
+        </div>
+      </address>
     </section>
 
-    <section class="ilike">
-      <article>
-        <h2>things i like</h2>
-        <ul>
-          <li>snow</li>
-          <li>playstation</li>
-          <li>sushi</li>
-        </ul>
-      </article>
-      <article>
-        <h2>things i dislike</h2>
-        <ul>
-          <li>rain</li>
-          <li>standing in line</li>
-          <li>beeing hangry</li>
-        </ul>
-      </article>
-    </section>
-
-    <address id="contact">
-      <h3>contact me</h3>
-      <a href="mailto:anna_maria.heuer@mac.com">send me an email</a>
-      <a href="tel:+4915140132615">give me a call</a>
-    </address>
+    <!--Contact-->
 
     <section class="social-all">
       <article class="social">
         <img
           class="social-icon"
+          src="images/stricken.jpg"
+          alt="Image from Instagram Account"
+        />
+        <div class="social-text">
+          <div class="social-head-sub">
+            <h3 class="social-headline">INSTAGRAM</h3>
+            <p class="social-subtext">Follow me to learn about my company.</p>
+          </div>
+          <div class="social-link">
+            <p class="social-name">@relatedbyobjects</p>
+            <a href="https://www.instagram.com/relatedbyobjects/?hl=de"
+              ><img
+                class="social-image"
+                src="images/arrow-right-circle.png"
+                alt="arrow to instagram"
+              />
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <article class="social">
+        <img
+          class="social-icon"
           src="images/social-icon.png"
           alt="Github Logo"
         />
@@ -72,8 +123,10 @@
             <p class="social-subtext">Follow me to learn about my thoughts.</p>
           </div>
           <div class="social-link">
-            <p class="social-name">@myaccount</p>
-            <img class="social-image" src="images/arrow-right-circle.png" />
+            <p class="social-name">@annamarika</p>
+            <a href="https://github.com/annamarika">
+              <img class="social-image" src="images/arrow-right-circle.png"
+            /></a>
           </div>
         </div>
       </article>
@@ -112,50 +165,6 @@
             <img class="social-image" src="images/arrow-right-circle.png" />
           </div>
         </div>
-      </article>
-
-      <article class="social">
-        <img
-          class="social-icon"
-          src="images/social-icon.png"
-          alt="Github Logo"
-        />
-        <div class="social-text">
-          <div class="social-head-sub">
-            <h3 class="social-headline">GITHUB</h3>
-            <p class="social-subtext">Follow me to learn about my thoughts.</p>
-          </div>
-          <div class="social-link">
-            <p class="social-name">@myaccount</p>
-            <img class="social-image" src="images/arrow-right-circle.png" />
-          </div>
-        </div>
-      </article>
-    </section>
-
-    <section>
-      <article>
-        <img
-          src="http://source.unsplash.com/random/800x500/?github"
-          alt="github related picture"
-        />
-        <a href="https://github.com/annamarika">GitHub</a>
-      </article>
-
-      <article>
-        <img
-          src="http://source.unsplash.com/random/800x500/?code"
-          alt="code related picture"
-        />
-        <p>Codepen</p>
-      </article>
-
-      <article>
-        <img
-          src="http://source.unsplash.com/random/800x500/?work"
-          alt="work related picture"
-        />
-        <p>LinkedIn</p>
       </article>
     </section>
 
