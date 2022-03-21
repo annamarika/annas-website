@@ -1,0 +1,198 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.6rem;
+  background-color: #ddd6fe;
+  color: 000;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 50px;
+}
+
+header {
+  _padding: 20px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Courier Prime", monospace;
+}
+
+h1 {
+  font-size: 5rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+}
+header a {
+  font-family: "Courier Prime", monospace;
+  font-size: 2rem;
+  background-color: #ffffff;
+  color: black;
+  text-decoration: none;
+  border-radius: 100px;
+  padding: 5px;
+}
+
+.portrait {
+  width: 130px;
+  height: 130px;
+  border-radius: 100%;
+}
+
+nav {
+  font-family: "Monoton", cursive;
+  width: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 10px;
+}
+
+.portrait-box,
+.contact-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 10px;
+  gap: 5px;
+}
+
+.list-header {
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  border-radius: 3rem;
+  width: 130px;
+  list-style-type: none;
+  font-family: "Courier Prime", monospace;
+}
+
+/* here begins my knowledge*/
+
+.knowledge-text {
+  padding: 20px;
+  _background-color: #af5b82;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.knowledge-program {
+  list-style: none;
+  background-color: white;
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+  padding: 0.5rem;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.program {
+  background-color: #ddd6fe;
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+  padding: 0.6rem 1.5rem;
+  margin: 5px;
+  border-radius: 2rem;
+  color: black;
+}
+
+/* here begins contact*/
+
+.contact-text h2 {
+  font-style: normal;
+  margin-bottom: 10px;
+}
+
+.svg {
+  display: flex;
+  gap: 10px;
+}
+.svg-mail,
+.svg-phone {
+  padding: 10px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+/* here begins my social account*/
+
+.social-all {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.social {
+  background-color: white;
+  width: 388px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.05);
+  border-radius: 16px;
+  margin: 12px;
+}
+
+.social-icon {
+  width: 128px;
+  height: 128px;
+  border-radius: 8px;
+  margin: 16px;
+}
+
+.social-text {
+  background-color: #af5b82;
+  width: 204px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 16px;
+}
+
+.social-head-sub {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-headline {
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  margin-bottom: 8px;
+}
+
+.social-subtext {
+  font-size: 1.6rem;
+  line-height: 2rem;
+}
+
+.social-link {
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social-name {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  color: #6f6f6f;
+}
+
+.social-image {
+  width: 20px;
+  height: 20px;
+}
